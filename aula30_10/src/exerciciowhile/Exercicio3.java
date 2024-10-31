@@ -20,13 +20,13 @@ public class Exercicio3 {
             }
             if (idade < 21) {
                 idadeMenor21++;
-            } else if (idade < 50) { 
+            } else if (idade > 50) { 
                 idadeMenor50++; 
             }
         }
         
         System.out.println("Total de pessoas menores de 21 anos: " + idadeMenor21);
-        System.out.println("Total de pessoas menores de 50 anos: " + idadeMenor50);
+        System.out.println("Total de pessoas maiores de 50 anos: " + idadeMenor50);
 
         leia.close();
     }
